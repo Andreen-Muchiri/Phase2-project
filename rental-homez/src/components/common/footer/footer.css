@@ -1,10 +1,13 @@
 .footerContact {
-  background-color: #27ae60;
+  background-color: grey;
   padding: 40px 0;
   color: #fff;
 }
 .footerContact h1 {
   font-size: 40px;
+}
+.footerContact buton  {
+  color: #d1cbc5;
 }
 footer {
   background-color: #1d2636;
@@ -47,8 +50,8 @@ footer ul li {
 .legal {
   text-align: center;
   padding: 20px;
-  background: #1d2636;
-  color: rgba(255, 255, 255, 0.5);
+  background: #d1cbc5;
+  color: black(255, 255, 255, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 @media screen and (max-width: 800px) {

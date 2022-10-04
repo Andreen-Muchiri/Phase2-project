@@ -3,12 +3,12 @@ import Heading from "../../common/Heading"
 import "./recent.css"
 import RecentCard from "./RecentCard"
 
-const Recent = () => {
+function  Recent () {
   return (
     <>
       <section className='recent padding'>
         <div className='container'>
-          <Heading title='Recent Property Listed' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
+          <Heading title='Recent Property Listed' subtitle='Currently available and listed for viewing and renting.' />
           <RecentCard />
         </div>
       </section>

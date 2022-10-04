@@ -1,6 +1,6 @@
 .awards {
-  background-color: #122947;
-  color: #fff;
+  background-color: #d1cbc5;
+  color: black;
   text-align: center;
 }
 .awards .heading {
@@ -8,10 +8,10 @@
   flex-direction: column-reverse;
 }
 .awards .heading p {
-  color: #27ae60;
+  color: black;
 }
 .awards .heading h1 {
-  color: #fff;
+  color: black;
   font-size: 30px;
   font-weight: 400;
 }
@@ -24,11 +24,11 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 4% 50%;
   font-size: 32px;
-  color: #ffffff;
+  color: gold;
 }
 .awards h1 {
   font-size: 50px;
 }
 .awards p {
-  color: grey;
+  color: black;
 }

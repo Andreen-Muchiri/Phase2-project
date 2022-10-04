@@ -2,16 +2,16 @@ import React from "react"
 import Heading from "../../common/Heading"
 import "./hero.css"
 
-const Hero = () => {
+function Hero ()  {
   return (
     <>
       <section className='hero'>
         <div className='container'>
-          <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
+          <Heading title='Search For Your Next Home ' subtitle='Find new & featured property located in your local city.' />
 
           <form className='flex'>
             <div className='box'>
-              <span>City/Street</span>
+              <span>City</span>
               <input type='text' placeholder='Location' />
             </div>
             <div className='box'>
